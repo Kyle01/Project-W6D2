@@ -1,0 +1,75 @@
+h1 {
+  text-align: inherit;
+  font: inherit;
+  font-size: 60px; 
+  font-weight: 700;
+  text-align: center;
+  font-family: Sans-Serif;
+}
+
+figure{
+  display: flex;
+  justify-content: center;
+}
+
+#clicked {
+  border-color: red;
+}
+
+/* .tower {
+  min-width: 180px;
+  border-bottom: 10px solid black;
+  display: flex;
+  align-items: flex-end;
+} */
+
+.tower:hover {
+  border-color: blue;
+}
+
+.spot {
+  background-color: pink;
+  width: 30px;
+  height: 30px;
+}
+
+.tower {
+  height: 200px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 180px;
+  border-bottom: 10px solid black;
+  display: flex;
+  align-items: flex-end;
+}
+
+.disc-1 {
+  width: 40px;
+  height: 30px;
+  padding: 5px; 
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: gray; 
+}
+
+.disc-2 {
+  width: 60px;
+  height: 30px;
+  padding: 5px 20px; 
+  margin-top: 10px;
+
+  border-radius: 20px;
+  background-color: gray; 
+}
+
+.disc-3 {
+  width: 80px;
+  height: 30px;
+  padding: 5px 40px; 
+  margin-top: 10px;
+
+  border-radius: 20px;
+  background-color: gray; 
+}

@@ -1,0 +1,34 @@
+
+.ttt{
+  width: 330px;
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  /* border: 8px solid black; */
+}
+
+ul > li{
+  padding: 30px;
+  display: flex;
+  border: 8px solid black;
+  background-color: #aaa;
+  width: 20px;
+  height: 20px;
+  
+}
+
+.clicked {
+  background-color: #eee; 
+  max-width: inherit;
+  font-size: 45px;
+  font-weight: 700;
+
+}
+
+.cells:hover {
+  background-color: yellow;
+}
+
